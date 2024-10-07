@@ -1,0 +1,31 @@
+ introduction of git and github:
+    1: git => git is tool
+    2: github => it is a central code base( where we store tha all our code ) 
+
+How Git actually work:
+
+    # for checking  version of git  in our computer  then we run a commond on commend pallets
+
+                        git -v
+    
+    # if check git available in our computer or not then run this commond
+
+                    git 
+
+Global Configuration  of git:
+
+      open Our Cmd and run these commonds for check our git work properly or not
+
+      1: git Config --global user.name "our name"
+       
+      2: git Config --global user.email "our email"
+
+      3: git Config --global core.editor "code --wait"
+
+      4: git Config --global core.autocrlf true
+
+      5: git Config --global -e
+
+      shivam kumar gupta
+      
+ 
