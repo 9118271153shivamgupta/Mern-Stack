@@ -1,0 +1,55 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    /* place-content: center; */
+    /* place-items: center;  */
+}
+section.container{
+    width: 500%;
+    height: 500%;
+    background-color: rgb(224, 19, 135);
+    display: flex;
+    /* display:grid;
+    grid-template-columns: repeat(3,1fr); */
+    
+}
+.card{
+    width: 200px;
+    height: 200px;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    align-content: center; 
+    position: relative;
+
+}
+.card1{
+    position:inherit ;
+    width:200px;
+    background-color: red;
+    left: 0;
+    top: 0;
+
+    
+}
+.card2{
+    background-color: green;
+
+
+}
+.card3{
+    background-color: blueviolet;
+
+
+}
